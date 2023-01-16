@@ -1,0 +1,20 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "description": "First challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaRuaLeS/202301-W1CH1-carlos-ruiz.git"
+  },
+  "keywords": [],
+  "author": "Carlos Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaRuaLeS/202301-W1CH1-carlos-ruiz/issues"
+  },
+  "homepage": "https://github.com/CaRuaLeS/202301-W1CH1-carlos-ruiz#readme"
+}
