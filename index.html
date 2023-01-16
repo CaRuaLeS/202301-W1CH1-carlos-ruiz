@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Pasapalabra</title>
+</head>
+<body>
+    <header>
+        <h1>Pasapalabras ISDI</h1>
+    </header>
+    <main>
+        <section class="alphabet">
+            <div class="letters">A</div>
+            <div class="letters">B</div>
+            <div class="letters">C</div>
+            <div class="letters">D</div>
+            <div class="letters">E</div>
+            <div class="letters">F</div>
+            <div class="letters">G</div>
+            <div class="letters">H</div>
+            <div class="letters">I</div>
+        </section>
+        <section class="alphabet">
+            <div class="letters">J</div>
+            <div class="letters">K</div>
+            <div class="letters">L</div>
+            <div class="letters">M</div>
+            <div class="letters">N</div>
+            <div class="letters">Ñ</div>
+            <div class="letters">O</div>
+            <div class="letters">P</div>
+            <div class="letters">Q</div>
+        </section>
+        <section class="alphabet">
+            <div class="letters">R</div>
+            <div class="letters">S</div>
+            <div class="letters">T</div>
+            <div class="letters">U</div>
+            <div class="letters">V</div>
+            <div class="letters">W</div>
+            <div class="letters">X</div>
+            <div class="letters">Y</div>
+            <div class="letters">Z</div>  
+        </section>
+            <p class="question">CON LA A. Dicho de una supuesta criatura extraterrestre: Apoderarse de alguien.</p>
+            <br>
+            <input type="button" value="Play Again" class="reset-button" onclick= "playAgain()">
+            <section class="input-actions">
+            <input type="text" class="input-field" onkeyup="lettersOnly(this)">
+            <button type="button" class="action-button" onclick="wordInserted(document.querySelector('.input-field').value)">OK</button>
+            <br>
+            <br>
+            <button type="button" class="action-button" onclick="nextWord()">PASAPALABRA</button>
+            <button type="button" class="action-button" onclick="stopPlaying()">STOP</button>
+            <br>
+            <div class="timer">150</div>
+        </section>
+        <footer>
+            <p class="result">Cuantas llevas acertadas y cuantas perdidas</p>
+            
+        </footer>
+    </main>
+</body>
+</html>

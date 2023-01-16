@@ -1,0 +1,58 @@
+*{
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+main{
+    text-align: center;
+}   
+
+.alphabet{
+margin-bottom: 5px;
+}
+.letters{
+    font-size: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    margin: 0.1% 0.1%;
+    background-color: rgb(65, 75, 207);
+    color: aliceblue;
+}
+.question{
+    font-size: 25px;
+    font-weight: bolder;
+    max-width: 700px;
+    min-height: 100px;
+    display: inline-block;
+    margin: 1   rem 0rem;
+}
+
+.input-actions{
+    text-align: center;
+}
+
+.reset-button{
+    display: none;
+    font-size: 30px;
+    margin-bottom: 5%;
+
+}
+.timer{
+    font-size: 30px;
+    display: inline-block;
+    border: solid rgb(0, 20, 193);
+    margin-top: 1rem;
+    width: 55px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(101, 108, 207);
+    color: aliceblue;
+}
